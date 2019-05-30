@@ -1,0 +1,68 @@
+.general{
+    margin:50px 50px 50px 150px;
+}
+.tabs {
+    
+    position: relative;
+    width: 500px;
+    height: 500px;/* Относительное позиционирование */
+}
+.tab, .tab-title {
+    display: inline-block; /* Выстраиваем по горизонтали */
+}
+.tab input[type="radio"] { display: none; }
+.tab-title {
+    
+    background:red; /* Цвет фона */
+    padding: 5px 10px;
+    left: 0; /* Поля вокруг текста */
+    border: 1px solid #666; /* Параметры рамки */
+    border-bottom: none; /* Снизу линию убираем */
+}
+.tab-content {
+    background: #fff;
+    position: absolute; /* Абсолютное позиционирование */
+    border: 5px solid #666; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    left: 0; /* Размещаем у левого края */
+    width: 1000px;
+    height: 250px; /* Ширина содержимого */
+    display: none;
+   /* Прячем вкладку */
+}
+.tab :checked + .tab-title {
+    position: relative; /* Относительное позиционирование */
+    background: #fff; /* Цвет фона */
+    top: 1px; /* Сдвигаем вниз */
+    z-index: 1; /* Отображаем поверх содержимого */
+}
+.tab :checked ~ .tab-content {
+    display: block; /* Показываем активную вкладку */
+}
+.text{
+    margin: -200px 50px 50px 350px;
+    border: 2px rebeccapurple;
+    height: 100px;
+    width: 600px;
+    text-align:justify;
+}
+.adress{ 
+    
+    margin:-50px 50px 50px 600px ;   
+    color:white;
+    
+}
+.karte{
+    margin: -300px 50px 50px 50px;
+    background:white;
+    width: 400px;
+    height: 400px;
+    border: 5px rebeccapurple;
+}
+.breadcrumb{
+    color:white;
+    background: none;
+}
+.bar{
+    margin: 80px 50px 50px 600px;
+}

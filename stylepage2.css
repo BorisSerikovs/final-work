@@ -1,0 +1,57 @@
+.boxx1{
+    cursor:pointer;
+    font-size: 30px;
+    height: 140px;
+    width: 1250px;
+    border: 0px solid gray;
+    margin: 50px 50px 50px 60px
+}
+.boxx2{
+    cursor:pointer;
+    font-size: 30px;
+    height: 140px;
+    width: 1250px;
+    border: 0px solid gray;
+    margin: -30px 100px 50px 60px
+}
+.boxx3{
+    cursor:pointer;
+    font-size: 30px;
+    height: 140px;
+    width: 1250px;
+    border: 0px solid gray;
+    margin: -30px 50px 50px 60px;
+
+    
+}
+.imageboxx1{
+
+    height: 120px;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 5px 50px 50px 10px
+
+    
+}
+.texxt{
+  color : white;
+  height: 600px;
+  width: 1050px;
+  text-align:justify;
+  margin: -175px 0px 20px 150px
+  
+}
+.h_line{
+ margin: -50px 50px 50px 70px;
+ width:88%; 
+ height:1px; 
+ background:white
+ 
+}
+.breadcrumb{
+    color:white;
+    background: none;
+}
+.bar{
+    margin: 80px 50px 50px 600px;
+}

@@ -1,0 +1,27 @@
+.form {
+
+    display:table-caption;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.balt{
+    height: 100px;
+    width: 100px;
+}
+.agre{
+    color: white;
+   text-align: justify;
+  }
+.reg{
+    color:white;
+}
+.olreg{
+    margin: 50px 50px 50px 50px 
+}
+.breadcrumb{
+    color:white;
+    background: none;
+}
+.bar{
+    margin: 80px 50px 50px 600px;
+}

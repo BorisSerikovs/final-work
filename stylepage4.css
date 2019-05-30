@@ -1,0 +1,49 @@
+.scroller {
+  background-color: white;
+  font-size: 15px;
+  margin: 0px 50px 50px 0px;
+  width: 1250px;
+  height: 320px;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: initial;
+  
+}
+.border {
+  font-size: 60px;
+  height: 320px;
+  width: 1250px;
+
+  margin: 10px 50px 50px 50px;
+}
+.in{
+  width: 1150px;
+  height: 100px;
+  margin: -50px 50px 0px 50px;
+}
+.in1{
+  width: 160px;
+  height: 35px;
+  margin: -70px 0px 65px 50px;
+}
+.user{
+  color: white;
+  margin: -45px 50px 0px 50px;
+}
+.chat{
+  color: white;
+  margin: -143px 0px 0px 50px;
+}
+.but{
+
+  width: 100px;
+  height: 50px;
+  margin: -15px 0px -100px 1205px;
+}
+.breadcrumb{
+  color:white;
+  background: none;
+}
+.bar{
+  margin: 80px 50px 50px 600px;
+}

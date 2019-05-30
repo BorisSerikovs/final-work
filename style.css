@@ -1,0 +1,72 @@
+
+
+.carusel-item img{
+
+height: 100%;
+width: 100%;
+}
+carousel-control-next-icon{
+
+    height: 40px;
+    width: 40px;
+}
+.slidebox{
+    font-size: 30px;
+    height: 300px;
+    width: 1000px;
+    border: 1px solid gray;
+    margin: 20px 50px 50px 145px 
+    
+}
+.button{
+    margin: 0;
+}
+.box1{
+    cursor:pointer;
+    font-size: 30px;
+    height: 140px;
+    width: 320px;
+    border: 1px solid gray;
+    margin: 160px 50px 50px 145px
+}
+.box2{
+    cursor:pointer;
+    font-size: 30px;
+    height: 140px;
+    width: 320px;
+    border: 1px solid gray;
+    margin: -190px 50px 50px 485px
+}
+.box3{
+    cursor:pointer;
+    font-size: 30px;
+    height: 140px;
+    width: 320px;
+    border: 1px solid gray;
+    margin: -190px 50px 50px 825px
+
+    ;
+}
+.imagebox1{
+
+    height: 120px;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 10px 50px 50px 10px
+
+    
+}
+.text{
+   color: white;
+  height: 150px;
+  width: 150px;
+  text-align: right;
+  margin: -185px 0px 20px 150px
+}
+.breadcrumb{
+    color:white;
+    background: none;
+}
+.bar{
+    margin: 80px 50px 50px 600px;
+}
